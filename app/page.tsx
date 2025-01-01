@@ -20,7 +20,7 @@ export default function Home() {
     const ctx = gsap.context(() => {
       gsap.from('section', {
         opacity: 0,
-        y: 50,
+        y: 100,
         stagger: 0.2,
         duration: 1,
         ease: 'power3.out',
