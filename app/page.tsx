@@ -3,7 +3,6 @@
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import JoinCommunity from './components/JoinCommunity'
 import Footer from './components/Footer'
 import Applications from './components/Applications'
 import Technology from './components/Technology'
@@ -43,7 +42,6 @@ export default function Home() {
       <About />
       <Technology />
       <Applications />
-      <JoinCommunity/>
       <Footer />
     </main>
   )
