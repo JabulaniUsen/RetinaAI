@@ -29,7 +29,7 @@ export default function Footer() {
           <Link href="/" className="text-2xl font-bold text-cyan-600 dark:text-cyan-400 font-orbitron">RetinaAI</Link>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-200">
+            <a href="https://x.com/retinaai404?s=09" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors duration-200">
               <span className="sr-only">Twitter</span>
               <Twitter/>
             </a>
